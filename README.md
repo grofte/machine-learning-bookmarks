@@ -22,6 +22,8 @@ Collection of websites I find interesting
 
 [Brier Score: Understanding Model Calibration](https://neptune.ai/blog/brier-score-and-model-calibration)
 
+[Neural Network Calibration with Keras](https://towardsdatascience.com/neural-network-calibration-with-keras-76fb7c13a55)
+
 ### Model Explainability
 
 [The Learning Interpretability Tool (LIT)](https://pair-code.github.io/lit/)
@@ -92,4 +94,8 @@ Good stuff, I promise.
 
 [I know fuck all about Kubernetes but here's a comic](https://cloud.google.com/kubernetes-engine/kubernetes-comic)
 
-Docker itself is pretty straight-forward I think. 
+Docker itself is pretty straight-forward I think.
+Wait, there's this.
+And there was a nice NormConf talk about it.
+
+[Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)

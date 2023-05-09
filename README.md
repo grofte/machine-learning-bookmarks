@@ -40,7 +40,17 @@ There's another package besides LIT and Alibi but I've forgotten what it is call
 
 [cleanlab](https://github.com/cleanlab/cleanlab)
 
-### Model Serving Latency
+### Active Learning
+
+Don't mix this term up with continuous learning. Active learning is where we use a model to select data points for manual labelling. Continuous learning is where the model gets updated every time the there's a response to output (more like reinforcement learning than active learning).
+
+[Great overview from neptune.ai](https://neptune.ai/blog/active-learning-strategies-tools-use-cases)
+
+[Demo of Prodigy from Explosion](https://demo.prodi.gy/?=null&view_id=ner_manual). I think there are issues here. The label sets are very small and any demo where you can click a button to switch to "Select span(s)" switches to labelling Persons and Orgs, no matter the context. But it's the only framework I really know for active learning.
+
+### Model Serving Latency and End-point Free Model Serving
+
+Convert a neural model to a inference-only piece of code. Runs faster even without pruning of dead neurons and quantization because of operation fusion. Runtimes exist for many languages so if the model rarely needs to be updated it can be integrated directly into non-Python applications.
 
 [ONNX Runtime](https://onnxruntime.ai/)
 
